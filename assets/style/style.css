@@ -14,8 +14,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 33%;
-  padding: 33% 5% 5% 5%;
+  padding: 20% 5% 5% 5%;
 }
 header h1 {
   font-size: 50px;
@@ -43,12 +42,10 @@ main p {
 main {
   margin: 0;
 }
-section {
-  display: flex;
-}
-article {
+section > section {
   display: inline-block;
   text-align: justify;
+  width: 33%;
 }
 .color-backgroubd {
   background: #926239;
