@@ -38,16 +38,18 @@ a:hover {
 }
 main p {
   padding: 20px;
+  text-align: justify;
 }
 main {
   margin: 0;
 }
-section > section {
-  display: inline-block;
-  text-align: justify;
-  width: 33%;
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.color-backgroubd {
-  background: #926239;
+section:first-child,
+section > section:nth-child(2n + 1) {
+  background-color: #926239;
   color: white;
 }
