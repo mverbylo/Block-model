@@ -12,22 +12,22 @@ body {
   font-size: 17px;
   text-align: center;
 }
-header {
-  height: 100vh;
+.header {
+  min-height: 100vh;
   background: url(../images/beachshowcase.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 20% 5% 5% 5%;
 }
-header h1 {
+.header h1 {
   font-size: 50px;
   font-weight: bold;
 }
-header p {
+.header p {
   font-size: 20px;
 }
-a {
+.header a {
   display: inline-block;
   text-decoration: none;
   border: 2px solid var(--color);
@@ -36,23 +36,22 @@ a {
   margin-top: 2%;
   padding: 10px 20px;
 }
-a:hover {
+.header a:hover {
   background: var(--color);
   color: var(--colorWhite);
 }
-main p {
+.main p {
   padding: 20px;
 }
-main {
+.main {
   margin: 0;
 }
-#wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.wrapper section {
+  display: inline-block;
+  width: 33%;
   text-align: justify;
 }
-section:first-child,
-section > section:nth-child(2n + 1) {
+.color {
   background-color: var(--color);
   color: var(--colorWhite);
 }
