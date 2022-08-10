@@ -20,14 +20,14 @@ body {
   background-repeat: no-repeat;
   padding: 20% 5% 5% 5%;
 }
-.header h1 {
+.header-heading {
   font-size: 50px;
   font-weight: bold;
 }
-.header p {
+.header-paragraph {
   font-size: 20px;
 }
-.header a {
+.header-link {
   display: inline-block;
   text-decoration: none;
   border: 2px solid var(--color);
@@ -36,17 +36,14 @@ body {
   margin-top: 2%;
   padding: 10px 20px;
 }
-.header a:hover {
+.header-link:hover {
   background: var(--color);
   color: var(--colorWhite);
 }
-.main p {
+.main-paragraph {
   padding: 20px;
 }
-.main {
-  margin: 0;
-}
-.wrapper section {
+.section {
   display: inline-block;
   width: 33%;
   text-align: justify;
