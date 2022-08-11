@@ -40,7 +40,7 @@ body {
   background: var(--color);
   color: var(--colorWhite);
 }
-.main-paragraph {
+.big-section, .section {
   padding: 20px;
 }
 .section {
